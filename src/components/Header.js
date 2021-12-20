@@ -13,7 +13,9 @@ export default function Header() {
       <div id="right-side-buttons">
         <button className='btn btn-primary'>Log in</button>
         <button className='btn btn-secondary'>Sign up</button>
-        <button id="btn-drop-down"><img id="drop-down-image" src={dropDownImg} alt="drop down menu" /></button>
+        <button id="btn-drop-down">
+          <img id="drop-down-image" src={dropDownImg} alt="drop down menu" />
+        </button>
       </div>
     </header>
   )

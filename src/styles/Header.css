@@ -64,18 +64,30 @@ header {
 
 #header-logo {
   height: 2.3em;
-  margin-left: 1em;
-  margin-top: 3px;
+  margin: .2em 1em 0em 1em;
 }
 
 #drop-down-image {
   position: relative;
-  top: 4px;
+  top: 7px;
   height: 1.5em;
 }
 
 #btn-drop-down {
-  border: none;
+  border: 1px solid var(--grey-300);
   background: none;
+  padding: 0em 1.4em .8em 1.4em;
   margin: 0em 3em 0em 1em;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 900px) {
+  #right-side-buttons .btn {
+    display: none;
+  }
+
+  #search-bar {
+    width: 60%;
+  }
 }
