@@ -13,3 +13,8 @@ To run the application, run:
 ```
 npm start
 ```
+
+To run tests, run:
+```
+run test
+```
