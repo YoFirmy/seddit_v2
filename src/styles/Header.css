@@ -1,5 +1,32 @@
+:root {
+  --blue: rgb(34, 119, 255);
+  --white: #fff;
+}
+
 header {
-  padding: 1em;
-  background: #fff;
+  padding: .3em;
+  background: var(--white);
   border-bottom: 1.5px solid rgb(238, 238, 238);
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  font-size: .9em;
+  font-weight: bold;
+  margin: .3em .5em;
+  padding: .5em;
+  width: 8em;
+  border: 1px solid var(--blue);
+  border-radius: 1.5em;
+}
+
+.btn-primary {
+  color: var(--blue);
+  background: var(--white);
+}
+
+.btn-secondary {
+  color: var(--white);
+  background: var(--blue);
 }

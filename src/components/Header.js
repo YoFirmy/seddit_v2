@@ -3,11 +3,13 @@ import '../styles/Header.css';
 export default function Header() {
   return (
     <header>
-      <div class="logo">seddit</div>
+      <div className="logo">seddit</div>
       <input type="text" placeholder='Search Seddit' />
-      <button>Log in</button>
-      <button>Sign up</button>
-      <button>drop-down</button>
+      <div className="right-side-buttons">
+        <button className='btn btn-primary'>Log in</button>
+        <button className='btn btn-secondary'>Sign up</button>
+        <button>drop-down</button>
+      </div>
     </header>
   )
 }
