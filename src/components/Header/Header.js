@@ -1,7 +1,7 @@
-import '../styles/Header.css';
+import './Header.css';
 
-import dropDownImg from '../images/drop-down.svg'
-import headerLogo from '../images/headerLogo.svg'
+import dropDownImg from '../../images/drop-down.svg'
+import headerLogo from '../../images/headerLogo.svg'
 
 export default function Header() {
   return (
