@@ -3,13 +3,67 @@
   border: 1px solid var(--grey-500);
   border-radius: 4px;
   background: var(--white);
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 
 .post-votes {
   font-size: .7em;
-  font-weight: bold;
+  font-weight: 800;
   padding: 1em;
   background: var(--grey-100);
   border-radius: 4px 0px 0px 4px;
+  text-align: center;
+}
+
+.total-votes {
+  margin: .5em 0em .7em 0em;
+}
+
+.post-body {
+  padding: .4em;
+}
+
+.post-header {
+  font-size: .7em;
+  display: flex;
+  align-items: center;
+}
+
+.post-avatar {
+  height: 1.8em;
+  border-radius: 50%;
+  margin: .6em .6em .6em 0em;
+}
+
+.post-community {
+  font-weight: bold;
+  margin-right: .3em;
+}
+
+.post-user {
+  color: var(--grey-600);
+}
+
+.post-title {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0em 0em .8em 0em;
+}
+.post-text {
+  font-weight: 300;
+}
+
+.post-footer {
+  color: var(--grey-600);
+  font-weight: 800;
+  font-size: .7em;
+  display: flex;
+  align-items: flex-start;
+  margin: 1em 0em 0.5em 0em;
+}
+
+.post-comments {
+  position: relative;
+  top: 2px;
+  margin-left: 4px;
 }

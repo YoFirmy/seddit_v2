@@ -7,7 +7,7 @@ const posts = [
   {
     "community": "AskSeddit",
     "user": { "name": "user1", "avatar": "https://i.pravatar.cc/100" },
-    "title": "Is this a title?",
+    "title": "Lorem Ipsum",
     "text": "Ut pariatur enim non nulla eiusmod cupidatat amet et non consectetur incididunt culpa esse laborum. Cillum ipsum sint cillum magna consectetur voluptate minim reprehenderit est ex. Esse proident laboris labore minim commodo ipsum. Sunt ex qui proident ut ullamco consectetur ad cillum duis do Lorem incididunt est dolore. Pariatur sint esse nostrud tempor dolor. Cupidatat laboris et velit et occaecat adipisicing do veniam id exercitation magna cupidatat veniam. Sunt fugiat laboris minim ex ullamco ullamco quis pariatur adipisicing exercitation aute nulla mollit quis.",
     "upVotes": 12,
     "downVotes": 2,
