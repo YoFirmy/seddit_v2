@@ -1,0 +1,15 @@
+.post {
+  display: flex;
+  border: 1px solid var(--grey-500);
+  border-radius: 4px;
+  background: var(--white);
+  margin-top: 1.5em;
+}
+
+.post-votes {
+  font-size: .7em;
+  font-weight: bold;
+  padding: 1em;
+  background: var(--grey-100);
+  border-radius: 4px 0px 0px 4px;
+}

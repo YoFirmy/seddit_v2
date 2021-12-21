@@ -1,13 +1,16 @@
-import Header from './components/Header/Header'
+import './App.css';
+
+import Header from './components/Header/Header';
+import Post from './components/Post/Post';
 
 const posts = [
   {
     "community": "AskSeddit",
-    "user": { "name": "YoFirmy", "avatar": "fun_avatar.jpeg" },
+    "user": { "name": "user1", "avatar": "https://i.pravatar.cc/100" },
     "title": "Is this a title?",
-    "text": "Is this text?",
-    "upvotes": 12,
-    "downvotes": 2,
+    "text": "Ut pariatur enim non nulla eiusmod cupidatat amet et non consectetur incididunt culpa esse laborum. Cillum ipsum sint cillum magna consectetur voluptate minim reprehenderit est ex. Esse proident laboris labore minim commodo ipsum. Sunt ex qui proident ut ullamco consectetur ad cillum duis do Lorem incididunt est dolore. Pariatur sint esse nostrud tempor dolor. Cupidatat laboris et velit et occaecat adipisicing do veniam id exercitation magna cupidatat veniam. Sunt fugiat laboris minim ex ullamco ullamco quis pariatur adipisicing exercitation aute nulla mollit quis.",
+    "upVotes": 12,
+    "downVotes": 2,
     "comments": [
       { 
         "user": { "name": "user2", "avatar": "https://i.pravatar.cc/100" }, 
@@ -20,15 +23,15 @@ const posts = [
     ]
   },
   {
-    "community": "AskSeddit",
-    "user": { "name": "YoFirmy", "avatar": "fun_avatar.jpeg" },
+    "community": "MockCommunity",
+    "user": { "name": "user2", "avatar": "https://i.pravatar.cc/100" },
     "title": "This is a post",
     "text": "And this is the posts content",
-    "upvotes": 55,
-    "downvotes": 74,
+    "upVotes": 55,
+    "downVotes": 74,
     "comments": [
       { 
-        "user": { "name": "user2", "avatar": "https://i.pravatar.cc/100" }, 
+        "user": { "name": "user1", "avatar": "https://i.pravatar.cc/100" }, 
         "text": "here's a comment"
       },
       { 
@@ -47,6 +50,11 @@ export default function App() {
   return (
     <>
       <Header />
+      <div className='app-page' >
+        <div className='app-content'>
+          <Post post={posts[0]} />
+        </div>
+      </div>
     </>
   );
 }

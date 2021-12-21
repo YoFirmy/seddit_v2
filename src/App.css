@@ -1,0 +1,29 @@
+:root {
+  --blue-100: rgb(246, 249, 255);
+  --blue-400: rgb(55, 131, 255);
+  --blue-500: rgb(34, 119, 255);
+  --grey-100: rgb(240, 242, 244);
+  --grey-300: rgb(222, 225, 233);
+  --grey-500: rgb(191, 193, 198);
+  --white: #fff;
+}
+
+.app-page {
+  margin-right: 20vw;
+  margin-left: 20vw;
+}
+
+.app-content {
+  width: 60vw;
+}
+
+@media (max-width: 900px) {
+  .app-page {
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  
+  .app-content {
+    width: 80vw;
+  }
+}
