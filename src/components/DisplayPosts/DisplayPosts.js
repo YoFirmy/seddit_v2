@@ -1,5 +1,6 @@
 import Post from '../Post/Post';
 
+// mock posts data
 const posts = [
   {
     "community": "AskSeddit",
@@ -45,7 +46,7 @@ const posts = [
 
 export default function DisplayPosts() {
   return (
-    <div className='app-content'>
+    <div className='list-of-posts'>
       {posts.map(p => <Post post={p}/>)}
     </div>
   )

@@ -8,7 +8,9 @@ export default function App() {
     <>
       <Header />
       <div className='app-page' >
-        <DisplayPosts />
+        <div className='app-content'>
+          <DisplayPosts />
+        </div>
       </div>
     </>
   );
