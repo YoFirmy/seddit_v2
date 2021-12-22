@@ -46,34 +46,34 @@ header {
   border-color: var(--blue-400);
 }
 
-#search-bar {
+.search-bar {
   width: 40%;
   background: var(--grey-100);
   border: 1px solid var(--grey-300);
   border-radius: 5px;
 }
 
-#search-bar:hover {
+.search-bar:hover {
   border-color: var(--blue-500);
 }
 
-#search-bar:focus {
+.search-bar:focus {
   border-color: var(--blue-500);
   outline: none;
 }
 
-#header-logo {
+.header-logo {
   height: 2.3em;
   margin: .2em 1em 0em 1em;
 }
 
-#drop-down-image {
+.drop-down-image {
   position: relative;
   top: 7px;
   height: 1.5em;
 }
 
-#btn-drop-down {
+.btn-drop-down {
   border: 1px solid var(--grey-300);
   background: none;
   padding: 0em 1.4em .8em 1.4em;
@@ -83,11 +83,11 @@ header {
 
 
 @media (max-width: 900px) {
-  #right-side-buttons .btn {
+  .right-side-buttons .btn {
     display: none;
   }
 
-  #search-bar {
+  .search-bar {
     width: 60%;
   }
 }
